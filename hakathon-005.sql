@@ -1,3 +1,5 @@
+-- NHẬP MÔN CSDL MYSQL - Đề 005
+
 create database hakathon;
 use hakathon;
 
