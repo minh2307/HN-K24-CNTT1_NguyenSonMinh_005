@@ -75,11 +75,7 @@ where creator_id = 'CR03';
 
 -- Do studio ST05 hoạt động trở lại, cập nhật studio_status = 'Available' và giảm hourly_price 10%
 update Studio 
-set studio_status  = 'Available'
-where studio_id = 'ST05';
-
-update Studio 
-set hourly_price = hourly_price * 0.9
+set studio_status  = 'Available', hourly_price = hourly_price * 0.9
 where studio_id = 'ST05';
 
 -- Xóa các payment có payment_method = 'Cash' và payment_date trước ngày 2025-05-03
